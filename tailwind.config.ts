@@ -9,10 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "yellow-gradient": "linear-gradient(to right, #fef800, #686b00)"
       },
+      fontFamily: {
+        "montserrat": ["Montserrat", "sans-serif"],
+        "abril": ["Abril", "serif"]
+      }
     },
   },
   plugins: [],
