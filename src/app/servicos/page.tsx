@@ -1,6 +1,7 @@
 import ConsultCards from "@/components/consultCards";
 import ContactBanner from "@/components/contactBanner";
 import LessonCards from "@/components/lessonCards";
+import Image from "next/image";
 import { FaHandsHelping } from "react-icons/fa";
 import { FaArrowTrendUp, FaFileCircleCheck } from "react-icons/fa6";
 import { GiBeerStein, GiNoseSide } from "react-icons/gi";
@@ -52,7 +53,7 @@ export default function Servicos() {
             icon={<GrValidate size={40} />}
           />
         </div>
-        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-12">
+        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-20">
           <ConsultCards
             title="Auxílio nas produções"
             icon={<IoBeer size={40} />}
@@ -72,7 +73,7 @@ export default function Servicos() {
         <h3 className="bg-yellow-gradient bg-clip-text text-xl font-bold text-transparent md:text-5xl">
           AULAS DE PRODUÇÃO CERVEJEIRA
         </h3>
-        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-12">
+        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-20">
           <LessonCards
             title="Conhecimento Especializado"
             icon={<LuBookOpenCheck size={40} />}

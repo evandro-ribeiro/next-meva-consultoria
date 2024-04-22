@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function ContactBanner() {
-  const linkStyle = "relative ml-6 w-96 hover:opacity-75 md:ml-0 md:w-1/3";
+  const linkStyle = "relative w-96 hover:opacity-75 md:ml-0 md:w-1/3";
   const divStyleDesktop =
     "hidden flex flex-col items-center justify-center rounded-md border-4 border-amber-400 px-2 text-center backdrop-blur-lg md:flex";
   const divStyleSmartphone =

@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function LessonCards({ title, icon }: CardProps) {
   return (
-    <div className="relative flex w-1/2 flex-col items-center justify-center gap-4 overflow-hidden rounded-lg bg-amber-600 p-6 text-center">
+    <div className="relative flex h-48 w-80 flex-col items-center justify-center gap-4 overflow-hidden rounded-lg bg-amber-600 p-6 text-center">
       <Image
         className="absolute right-0 w-24 opacity-60"
         src={"/malte.png"}
