@@ -1,4 +1,6 @@
-# SITE DA PRESTADORA DE SERVIÇOS - MEVA CONSULTORIA
+<img width=100% src="./public/banner-readme.png"/>
+
+# SITE DE CONSULTORIA CERVEJEIRA - MEVA CONSULTORIA
 
 Projeto criado para a Meva Consultoria divulgar seus trabalhos e os serviços oferecidos. Projeto responsivo, pois poderá ter mais acessos ainda em celulares.
 
