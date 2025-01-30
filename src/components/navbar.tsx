@@ -9,15 +9,19 @@ export default function NavBar() {
     <section className="flex justify-around py-6">
       <Link href="/">
         <span
-          className={pathname === "/" ? "rounded-xl bg-orange-400 p-2" : ""}
+          className={
+            pathname === "/"
+              ? "rounded-xl bg-orange-400 p-2 text-sm md:text-base"
+              : ""
+          }
         >
           HOME
         </span>
       </Link>
-      <p className="font-abril font-bold text-zinc-400 md:text-2xl">
+      <p className="font-abril text-sm font-bold text-zinc-400 md:text-2xl">
         MEVA CONSULTORIA
       </p>
-      <div className="flex gap-6">
+      <div className="flex gap-6 text-sm md:text-base">
         <Link href="/servicos">
           <span
             className={

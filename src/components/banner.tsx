@@ -5,12 +5,16 @@ import Image from "next/image";
 
 export default function Banner() {
   const h2Desktop =
-    "hidden rounded-full bg-zinc-700 p-4 text-3xl text-amber-300 shadow-xl shadow-yellow-300 backdrop-blur-xl md:block";
+    "hidden rounded-full bg-zinc-700 p-4 text-3xl text-amber-300 shadow-xl shadow-yellow-300 backdrop-blur-xl md:inline-block";
+
   const h2Smartphone =
     "rounded-full bg-zinc-700 p-4 text-xl text-amber-300 shadow-xl shadow-yellow-300 backdrop-blur-xl md:hidden";
-  const divStyle = "mb-10 flex flex-col items-center gap-16 md:flex-row";
+
+  const divStyle =
+    "w-full mb-10 flex flex-col items-center justify-evenly gap-16 md:flex-row";
+
   return (
-    <section className="mt-10 flex flex-col items-center">
+    <section className="mx-auto mt-10 flex w-2/3 flex-col items-center justify-center text-center">
       <motion.div
         className={divStyle}
         initial={{ x: -200, opacity: 0, scale: 0.8 }}

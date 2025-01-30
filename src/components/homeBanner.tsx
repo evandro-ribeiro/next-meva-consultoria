@@ -17,7 +17,7 @@ export default function HomeBanner() {
   };
   const textForTransition = "MEVA CONSULTORIA";
   return (
-    <section className="h-60 md:h-screen">
+    <section className="h-60 w-full md:h-screen">
       <div className="relative">
         <motion.video
           animate={{ opacity: 0.5 }}
@@ -32,7 +32,7 @@ export default function HomeBanner() {
           initial={{ opacity: 0, scale: 0.3 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1, duration: 2 }}
-          className="absolute mt-9 flex flex-col px-14 text-center text-3xl font-bold backdrop-blur-sm md:top-40 md:mt-0 md:px-96 md:text-6xl"
+          className="absolute mt-9 flex w-full flex-col px-14 text-center text-3xl font-bold backdrop-blur-sm md:top-40 md:mt-0 md:px-96 md:text-6xl"
         >
           <motion.h1
             className="font-abril"

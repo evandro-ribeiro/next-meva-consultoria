@@ -23,11 +23,11 @@ export default function Servicos() {
           loop
           className="absolute -z-10"
         />
-        <div className="mb-32 flex flex-col items-center gap-4 pt-2 text-center backdrop-blur-sm md:mx-96 md:mb-0 md:py-2 md:backdrop-blur-lg">
+        <div className="mb-32 flex flex-col items-center gap-4 pt-2 text-center backdrop-blur-lg md:mx-96 md:mb-0 md:p-6 md:backdrop-blur-xl">
           <h2 className="font-abril text-3xl font-bold text-amber-400 md:text-6xl">
             Serviços Oferecidos
           </h2>
-          <p className="text-sm md:text-xl">
+          <p className="px-10 pb-2 text-sm md:text-xl lg:px-0">
             Para quem quer se aprofundar no universo cervejeiro e <br />
             produzir ótimas cervejas dos mais variados estilos
           </p>
