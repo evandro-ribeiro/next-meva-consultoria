@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function NavBar() {
+  // LET THE NAVBAR ACTIVE FOR INCLUSION OF FUTURE PAGES
   const pathname = usePathname();
   return (
     <section className="flex justify-around py-6">
@@ -21,17 +22,6 @@ export default function NavBar() {
       <p className="font-abril text-sm font-bold text-zinc-400 md:text-2xl">
         MEVA CONSULTORIA
       </p>
-      <div className="flex gap-6 text-sm md:text-base">
-        <Link href="/servicos">
-          <span
-            className={
-              pathname === "/servicos" ? "rounded-xl bg-orange-400 p-2" : ""
-            }
-          >
-            SERVIÇOS
-          </span>
-        </Link>
-      </div>
     </section>
   );
 }

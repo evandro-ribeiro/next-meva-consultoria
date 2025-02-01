@@ -27,6 +27,8 @@ export default function HomeBanner() {
           muted
           autoPlay
           loop
+          controls={false}
+          playsInline
         />
         <motion.div
           initial={{ opacity: 0, scale: 0.3 }}
