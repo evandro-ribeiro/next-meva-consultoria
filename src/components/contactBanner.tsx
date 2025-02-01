@@ -39,6 +39,8 @@ export default function ContactBanner() {
             muted
             autoPlay
             loop
+            controls={false}
+            playsInline
             className="rounded-md"
           />
           <span className="absolute left-10 top-24 w-2/3 rounded-xl bg-orange-700 p-3 text-center shadow-xl shadow-orange-500 hover:scale-105 hover:bg-amber-500">
@@ -66,6 +68,8 @@ export default function ContactBanner() {
             muted
             autoPlay
             loop
+            controls={false}
+            playsInline
             className="rounded-md"
           />
           <span className="absolute right-10 top-24 w-2/3 rounded-xl bg-amber-500 p-3 text-center shadow-xl shadow-amber-700 hover:scale-105 hover:bg-amber-900">
