@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "@/components/navbar";
-import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Meva Consultoria",
@@ -15,10 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="font-montserrat bg-zinc-800 text-zinc-200">
-        <NavBar />
+      <body className="bg-zinc-800 font-montserrat text-zinc-200">
         {children}
-        <Footer />
       </body>
     </html>
   );
